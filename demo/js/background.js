@@ -137,6 +137,10 @@ chrome.omnibox.onInputEntered.addListener((text) => {
 // 预留一个方法给popup调用
 function testBackground() {
 	alert('你好，我是background！');
+	$.get('https://www.baidu.com', function(html){
+		console.log( html);
+		alert('跨域调用成功！' + html);
+	});
 }
 
 // 是否显示图片

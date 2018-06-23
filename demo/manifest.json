@@ -76,7 +76,7 @@
 	"chrome_url_overrides":
 	{
 		// 覆盖浏览器默认的新标签页
-		"newtab": "newtab.html"
+		//"newtab": "newtab.html"
 	},
 	// Chrome40以前的插件配置页写法
 	"options_page": "options.html",
